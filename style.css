@@ -4,7 +4,7 @@
     --branco: rgb(141, 52, 52);
     --cor-de-fundo: #00162E;
     --fundo-senha: #000000;
-    --fundo-texto: #fffb03;
+    --fundo-texto: #ffffff;
     --borda: #ffffff;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
@@ -55,4 +55,10 @@ body{
 .conteudo{
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.parametro{
+    background-color: var(--fundo-texto);
+    border: 2px solid var(--borda);
+    margin-top: 32px;
 }
